@@ -10,7 +10,7 @@ CodeCademy Project: practice basic HTML and CSS
 
 ## General Info ##
 One of the first projects in Web Development path.
-Make own website style guide to practice basic HTML and CSS.
+Made own website style guide to practice basic HTML and CSS.
 This project is a continuation of [Alternative Style Guide](https://github.com/mackowin/alternative_style_guide) 
 
 ## Technologies Used ##
