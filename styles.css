@@ -1,0 +1,290 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* FONTS DOWNLOADED */
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Source Sans Pro Italic'), local('SourceSansPro-Italic'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDJB9cme.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Source Sans Pro Bold Italic'), local('SourceSansPro-BoldItalic'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZclSds18S0xR41.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7lujVj9w.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(https://fonts.gstatic.com/s/sourcesanspro/v13/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu3cOWxw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+/* NAVBAR */
+
+.navbar {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(3,171,157);
+    text-align: center;
+    margin: 10px;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* MAIN BODY */
+
+body {
+    font-family: Source Sans Pro, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    position: relative;
+    top: 110px;
+}
+
+h2 {
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+#Section-Colors h2, #Section-Text h2, #Section-Buttons h2 {
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+p {
+    font-size: 17px;
+}
+
+#Section-Colors p {
+    font-size: 13px;
+    margin: 3px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.indent {
+    margin-left: 30px;
+}
+
+#Section-Colors, #Section-Fonts, #Section-Text, #Section-Buttons {
+    border: 1px solid lightgray;
+    padding: 20px;
+    margin: 10px;
+    position: relative;
+    top: 100px;
+}
+
+
+
+/* COLORS SECTION */
+
+.filler {
+    width: 180px;
+    height: 70px;
+    padding-top: 15px;
+    margin: 10px;
+    border: 1px solid lightgray;
+    display: inline-block;
+    font-size: small;
+    text-align: center;
+}
+
+.color-name {
+    font-weight: bold;
+    font-size: 17px;
+    margin-right: 30px;
+    float: left;
+    clear: left;
+    position: relative;
+    top: 30px;
+}
+
+#marine {
+    position: relative;
+    right: 16px;
+}
+
+#blue {
+    position: relative;
+    left: 3px;
+}
+
+
+
+/* FONTS SECTION */
+
+#fonts {
+    font-size: 17px;
+    margin: 20px;
+}
+
+#fonts p {
+    margin-bottom: 10px;
+}
+
+
+
+/* TEXT STYLES SECTION */
+
+.style {
+    margin-bottom: 20px;
+}
+
+.style1 { 
+    font-weight: bold;
+    Font-size: 2em;
+    Font-family: Source Sans Pro;
+}
+
+.style2 { 
+    font-weight: bold;
+    Font-size: 1.5em;
+    Font-family: Source Sans Pro;
+}
+
+.style3 { 
+    Font-weight: regular;
+    Font-size: 17px;
+    Font-family: Source Sans Pro;
+}
+
+.style4 { 
+    Font-weight: regular;
+    Font-size: 13px;
+    Font-family: Source Sans Pro;
+}
+
+
+
+/* BUTTONS */
+
+.btn {
+    border-color: rgb(3,171,157);
+    border-width: thick;
+    border-radius: 20px;
+    background-color: rgb(3,171,157);
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    width: 80px;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.large {
+    padding: 20px;
+    width: 150px;
+    font-size: 15px;
+}
+
+.disabled {
+    border-color: rgba(3,171,157,0.2);
+    background-color: rgba(3,171,157,0.4);
+}
+
+.outline {
+    border-color:  rgba(3,171,157,0.3);
+    background-color: white;
+    color: rgba(3,171,157,0.5)
+}
+
+
+
+/* COLORS */
+
+.dark-marine {
+    background-color: rgb(3,171,157);
+}
+
+.light-marine {
+    background-color: rgba(3,171,157,0.3);
+}
+
+.shading-marine {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 20%, rgba(3,171,157,1) 100%);
+}
+
+.dark-grey {
+    background-color: rgb(97,97,97);
+}
+
+.medium-grey {
+    background-color: rgb(158,158,158);
+}
+
+.light-grey {
+    background-color: rgb(224,224,224);
+}
+
+.very-dark-blue {
+    background-color: rgb(37,97,126);
+}
+
+.dark-blue {
+    background-color: rgb(96,125,139);
+}
+
+.medium-blue {
+    background-color: rgba(96,125,139,0.7);
+}
+
+.light-blue {
+    background-color: rgba(96,125,139,0.5);
+}
+
+.very-light-blue {
+    background-color: rgba(96,125,139,0.3);
+}
