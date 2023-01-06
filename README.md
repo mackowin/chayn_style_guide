@@ -1,5 +1,5 @@
 # :eyes: Build a Website Style Guide (II) #
-CodeCademy Project: practice basic HTML and CSS
+CodeCademy Project: Practice basic HTML and CSS
 
 ## Table of Contents ##
 * [General Info](#General-Info)
